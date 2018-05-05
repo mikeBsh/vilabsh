@@ -1,0 +1,56 @@
+/*
+COLORS:
+
+
+*/
+$color-primary: #d4a000;
+$color-primary-light: #b0914f;
+$color-primary-dark: #8e7847;
+
+
+*,
+*::after,
+*::before{
+	margin:0;
+	padding: 0;
+	box-size: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+
+
+	color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+	background-color: #f9f9f9;
+
+}
+
+.btn-booking {
+	font-family: "Cinzel Decorative";
+	height:100%;
+	background-color: $color-primary-light;
+	color:white!important;
+	padding: 2rem;
+	transition: all 0.4s;
+	
+	&:hover {
+		background-color: #62563e;
+		color: white!important;
+	}
+	&:active {
+		background-color: #443c2c;
+	}
+}
+
+// .red {
+// 	   background-color: #963a36;
+// }
+
+// .cream {
+// 	 background-color: #ad954e;
+// }

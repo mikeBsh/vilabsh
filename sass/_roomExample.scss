@@ -1,0 +1,125 @@
+.rooms{
+	// background-color: lightgray;
+}
+ .headTitle2{
+	font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333 ;
+}
+
+ .headTitle3{
+	font-family: "Cinzel Decorative";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #b0914f;
+}
+
+ .about-border{
+	width: 40px;
+    height: 3px;
+    background-color: #b0914f;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.rooms-wrap{
+	 margin:0 auto;
+    padding: 0px 10px 5px 10px;
+    display:inline-block;
+    text-align: center;
+    
+     width:100%;
+}
+
+.rooms-container{
+	margin: 0 auto;
+}
+
+
+
+
+
+// @media (min-width: 768px) {
+//   /* show 3 items */
+//   .card-carousel-inner .active,
+//   .card-carousel-inner .active + .card-item,
+//   .card-carousel-inner .active + .card-item + .card-item {
+//     display: block;
+//   }
+
+//   .card-carousel-inner
+//     .card-item.active:not(.card-item-right):not(.card-item-left),
+//   .card-carousel-inner
+//     .card-item.active:not(.card-item-right):not(.card-item-left)
+//     + .card-item,
+//   .card-carousel-inner
+//     .card-item.active:not(.card-item-right):not(.card-item-left)
+//     + .card-item
+//     + .card-item {
+//     transition: none;
+//   }
+
+//   .card-carousel-inner .card-item-next,
+//   .card-carousel-inner .card-item-prev {
+//     position: relative;
+//     transform: translate3d(0, 0, 0);
+//   }
+
+//   .card-carousel-inner
+//     .active.card-item
+//     + .card-item
+//     + .card-item
+//     + .card-item {
+//     position: absolute;
+//     top: 0;
+//     right: -33.3333%;
+//     z-index: -1;
+//     display: block;
+//     visibility: visible;
+//   }
+
+//   /* left or forward direction */
+//   .active.card-item-left + .card-item-next.card-item-left,
+//   .card-item-next.card-item-left + .card-item,
+//   .card-item-next.card-item-left + .card-item + .card-item,
+//   .card-item-next.card-item-left
+//     + .card-item
+//     + .card-item
+//     + .card-item {
+//     position: relative;
+//     transform: translate3d(-100%, 0, 0);
+//     visibility: visible;
+//   }
+
+//   /* farthest right hidden item must be abso position for animations */
+//   .card-carousel-inner .card-item-prev.card-item-right {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: -1;
+//     display: block;
+//     visibility: visible;
+//   }
+
+//   /* right or prev direction */
+//   .active.card-item-right + .card-item-prev.card-item-right,
+//   .card-item-prev.card-item-right + .card-item,
+//   .card-item-prev.card-item-right + .card-item + .card-item,
+//   .card-item-prev.card-item-right
+//     + .carousel-item
+//     + .carousel-item
+//     + .carousel-item {
+//     position: relative;
+//     transform: translate3d(100%, 0, 0);
+//     visibility: visible;
+//     display: block;
+//     visibility: visible;
+//   }
+// }
+

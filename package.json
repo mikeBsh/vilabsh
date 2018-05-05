@@ -1,0 +1,24 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "Villa busho website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Paros",
+    "Hotel",
+    "Villa",
+    "Busho",
+    "Greece",
+    "Islands",
+    "Summer"
+  ],
+  "author": "Mike Busho",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

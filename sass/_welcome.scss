@@ -1,0 +1,90 @@
+/* ABOUT SECTION
+-------------------------------------------------- */
+.about-sec {
+    margin-top: 5rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.about-sec .data-in .headTitle2{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333 ;
+}
+
+.about-sec .data-in .headTitle3{
+font-family: "Cinzel Decorative";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #b0914f;
+}
+
+.about-sec .data-in .row p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: center;
+    color: #7b7b7b;
+    width: 100;
+    height: 100%;
+    align: justify;
+}
+.about-sec .data-in .about-border{
+    width: 40px;
+    height: 3px;
+    background-color: #b0914f;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+@media screen and (min-width: 761px) and (max-width: 990px){
+    .about-sec {
+        padding-right: 10rem;
+        padding-left: 10rem;
+        width: 100%;
+    }
+    .about-sec .data-in .row p {
+         align: justify;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 301px) and(max-width : 760px){
+    .about-sec {
+        margin-top: 2rem;
+        padding-right: 6rem;
+        padding-left: 6rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .about-sec .data-in .row p {
+        font-size: 10px;
+         align: justify;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 300px){
+       .about-sec {
+        margin-top: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .about-sec .data-in .row p {
+        font-size: 8px;
+         align: justify;
+    }
+}
